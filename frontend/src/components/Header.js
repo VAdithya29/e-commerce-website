@@ -1,5 +1,6 @@
 import React from "react";
 import { Container } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -7,9 +8,9 @@ const Header = () => {
       <Container>
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
           <div class="container-fluid">
-            <a class="navbar-brand" href="#">
+            <Link class="navbar-brand" to="/">
               Shop
-            </a>
+            </Link>
             <button
               class="navbar-toggler"
               type="button"
@@ -25,17 +26,17 @@ const Header = () => {
             <div class="collapse navbar-collapse" id="navbarColor01">
               <ul class="navbar-nav me-auto">
                 <li class="nav-item">
-                  <a class="nav-link active" href="#">
+                  <Link class="nav-link active" to="/cart">
                     <i className="fas fa-shopping-cart"></i>
                     Cart
                     <span class="visually-hidden">(current)</span>
-                  </a>
+                  </Link>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">
+                  <Link class="nav-link" to="/login">
                     <i className="fas fa-user"></i>
                     Sign-in
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
