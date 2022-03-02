@@ -9,7 +9,7 @@ connectDB();
 const app = express();
 
 app.get("/", (req, res) => {
-  res.send("Ji");
+  res.send("Hi");
 });
 
 app.use("/api/products", productRoutes);
