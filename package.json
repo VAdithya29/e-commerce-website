@@ -6,7 +6,6 @@
   "type": "module",
   "scripts": {
     "start": "node backend/server",
-    "build": "react-scripts build",
     "data:import": "node backend/seeder",
     "data:destroy": "node backend/seeder -d",
     "predeploy": "npm run build",
