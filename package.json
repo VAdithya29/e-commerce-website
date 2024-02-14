@@ -8,6 +8,7 @@
     "start": "node backend/server",
     "data:import": "node backend/seeder",
     "data:destroy": "node backend/seeder -d",
+    "build": "react-scripts build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
@@ -27,6 +28,7 @@
     "express": "^4.17.2",
     "express-async-handler": "^1.2.0",
     "gh-pages": "^6.1.1",
-    "mongoose": "^6.2.1"
+    "mongoose": "^6.2.1",
+    "react-scripts": "^5.0.1"
   }
 }
