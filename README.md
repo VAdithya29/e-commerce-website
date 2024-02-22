@@ -1,4 +1,4 @@
-# E-commerce Application | *MongoDB, Express, ReactJS, NodeJS, Google Firebase*
+# E-commerce Application | *MongoDB, Express, ReactJS, NodeJS, Firebase*
 ●	Implemented a responsive design strategy, ensuring a seamless user experience across various devices.  
 ●	Efficiently managed Redux states, handling complex application states and asynchronous actions.  
 ●	Developed reusable and modular components, contributing to a clean and maintainable codebase.  
